@@ -1,8 +1,32 @@
+* {
+  margin: 0;
+}
+
 .container {
+  font-family: "Noto Serif", serif;
   width: 450px;
   height: 450px;
+  background-color: #1b1a17;
+  color: #fff;
+}
+
+.logo-img {
+  height: 32px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.head-area {
+  font-family: "Playfair Display", serif;
+  background-color: #711a75;
+  color: #e6d5b8;
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
 }
 
 .heading-1 {
+  margin-top: 13px;
   /* text-align: center; */
 }
